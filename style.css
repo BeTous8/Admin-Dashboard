@@ -370,7 +370,7 @@ li .menu-items {
 }
 
 .items {
-    padding: 20px 30px;
+    padding: 15px 30px;
     display: flex;
     gap: 20px;
     background-color: rgb(252, 252, 252);
@@ -383,54 +383,4 @@ li .menu-items {
 
 }
 
-.img {
-    /* display: flex; */
-}
 
-.img .profile-pic1{
-    background-image: url("./lepord.png");
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    
-    
-}
-
-.img .profile-pic2{
-    background-image: url("./pro-pic.png");
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    
-    
-}
-
-.img .profile-pic3{
-    background-image: url("./alien.png");
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    
-    
-}
-
-.img .profile-pic4{
-    background-image: url("./pinguan.png");
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    
-    
-}
