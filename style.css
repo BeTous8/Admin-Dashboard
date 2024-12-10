@@ -159,6 +159,12 @@ p {
     background-color: rgb(55, 146, 244);
     border: none;
     cursor: grab;
+    transition: transform .3s ease;
+}
+
+.buttons *:hover {
+    color: rgb(33, 33, 81);;
+    transform: scale(1.2);
 }
 
 
@@ -183,11 +189,23 @@ p {
     font-family: "Roboto", sans-serif;
     font-size: calc(.7em + 0.5vw);
     font-weight: 700;
+    
 }
+
 
 a {
     text-decoration: none;
+    padding: 10px;
+    transition: translate .2s ease-in-out;
 }
+
+a:not(.logo):hover {
+    background-color: rgb(177, 211, 255);
+    
+    translate: 10px;
+}
+
+
 
 .logo-list
  {
@@ -206,6 +224,10 @@ li .menu-items {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.menu-items:hover {
+    color: rgb(33, 33, 81);
 }
 
 
