@@ -264,12 +264,16 @@ li .menu-items {
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(10, 1fr);
     height: 220px;
-    
     gap: 20px;
     border-left: 10px solid rgb(255, 213, 0);
-    
-    
+    transition: transform 0.3s ease;  
+    cursor: grab;
 }
+
+.cards:hover {
+    transform: scale(1.02);
+}
+
 
 .cards p,
 .cards h3 {
